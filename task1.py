@@ -67,10 +67,10 @@ def rank_columns(data):
     on being a useful feature during clustering.
     
     Args ->
-        data: A Pandas DataFrame ideally generated as an output by simulate_data()
+        data (pd.DataFrame): A dataframe ideally generated as an output by simulate_data()
     
     Returns ->
-        column_scores: A dict() object of format {column name: (F-statistic, pvalue)}
+        column_scores (dict()): A dictionary object of format {column name: (F-statistic, pvalue)}
         containing the F-statistic and p-values
         for each column.
     
